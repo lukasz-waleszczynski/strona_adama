@@ -192,21 +192,27 @@ Description list:
 TABELE
 Tabele same zmieniają swój rozmiar i przenoszą tekst. Można dodawać dodatkowe rzędy / kolumny bez dodawania innych atrybutów.
 
+
 <table>
-    <tr>
-        <th>num1</th>           Table Header (nagłówki tabeli)
-        <th>num2</th>
-        <th>num3</th>
-    </tr>
-    <tr>                        table row - rzędy kolumny
-        <td>one</td>            table data - kolumny tabeli
-        <td>two</td>
-        <td>three</td>
-    </tr>
-    <tr>
-        <td>four</td>
-        <td>five</td>
-        <td>six</td>
-    </tr>
+    <thead>                         Górna część tabeli (header tabeli)
+        <caption><h2>List of numbers<h2></caption>  Tytuł tabeli (ustawia się po środku). Można używać innych tagów.
+        <tr>
+            <th>num1</th>           Table Header (nagłówki tabeli)
+            <th>num2</th>
+            <th>num3</th>
+        </tr>
+    </thead>
+    <tbody>                         Body tabeli
+        <tr>                        table row - rzędy kolumny
+            <td>one</td>            table data - kolumny tabeli
+            <td colspan="2">two</td>ten wpis zajmuje teraz dwie kolumny
+            <td>three</td>
+        </tr>
+        <tr>
+            <td>four</td>
+            <td>five</td>
+            <td>six</td>
+        </tr>
+    </tbody>
 </table>
 -->
