@@ -33,6 +33,58 @@ Tagi:
         <p style="color: red; background-color: blue;">OBYDWA STYLE W JEDNEJ LINII</p>
         <h2 style="color: red; background-color: blue;">TO SAMO DLA INNYCH ELEMENTÓW</h2>
         <body style="background-color: lightblue">       można nadać styl całej części dokumentu
+    </body>
+</html>
+
+-->
+
+
+
+
+<!--
+POPRAWNY LAYOUT:
+
+!!! NA STRONIE MOŻE BYĆ TYLKO JEDEN HEADER 1 <h1></h1>, który jest głównym tytułem strony
+poniżej headery 2 <h2></h> definiujące sekcje strony
+header 3 używamy aby zrobić podsekcje w headerze nr 2
+hierarchiczne używanie headerów:
+h1
+    h2
+        h3
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="montaż drzwi i okien">
+        <title>ANG montaż drzwi i okien</title>
+    </head>
+    <body>
+       <header>     górna część strony (przeważnie z paskiem nawigacji)
+            <nav>
+                miejsce, w którym będzie kod dla linków nawigacyjnych
+            </nav>
+       </header>
+       <main>
+            <article>       sekcja strony z artykułami
+                <section>       zawsze należy podzielić je na sekcje
+                    <h1></h1>   oraz używać w nich odpowiednich headerów
+                </section>
+                <section>       sekcji może być kilka
+                    <h2></h2>
+                </section>
+                <section>
+                    <aside>
+                                kontent, który nie jest bezpośrednio związany z treścią strony (np. reklamy adsense)
+                    </aside>     
+                </section>
+            </article>
+       </main>
+       <footer>
+
+       </footer>
+
+
 
     </body>
 </html>
