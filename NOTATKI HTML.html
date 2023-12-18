@@ -109,7 +109,7 @@ target="_blank"     otwiera link w nowym oknie, nie w oknie z naszą stroną
 <!--
 OBRAZY
 
-<img src="https://duzekubki.pl/wp-content/uploads/2018/07/JK165_04.jpg.jpg"></a>
+<img src="https://duzekubki.pl/wp-content/uploads/2018/07/JK165_04.jpg.jpg">
 <img src="https://duzekubki.pl/wp-content/uploads/2018/07/JK165_04.jpg" alt="MIAŁ BYĆ DINOŻARŁ" />      można użyć obrazów z internetu za pomocą linka.
 alt="OPIS"      dzięki tej funcji dodajemy alternatywny tekst, w razie gdyby nie można było załadować zdjęcia
 <img src="pics/index_image.jpg" alt="pikczer1" />       linkowanie obrazów z dysku
@@ -119,7 +119,7 @@ alt="OPIS"      dzięki tej funcji dodajemy alternatywny tekst, w razie gdyby ni
 PONIŻEJ TWORZENIE ZDJĘCIA BĘDĄCEGO LINKIEM DO NASTĘPNEGO ZDJĘCIA / STRONY:
 <a href="https://roadmap.sh/full-stack">
     <img width="720" src="pics/index_image.jpg" alt="pikczer1" />
-<a>
+</a>
 -->
 
 
@@ -215,4 +215,78 @@ Tabele same zmieniają swój rozmiar i przenoszą tekst. Można dodawać dodatko
         </tr>
     </tbody>
 </table>
+-->
+
+
+--------------------------------------------------------------------------------------------------
+
+
+<!--
+DIVS & SPANS (kontenery)
+Używane, aby "owinąć" inne elementy kodu html.
+Jest dobrze, aby stosować te "wrapper-tagi" przy działaniach np. z CSS, ponieważ wtedy CSS stosuje się do wrapper-taga, który nada wszystkim podrzędnym elementom odpowiedni styl.
+
+HTML wyświetla wszystko na dwa podstawowe sposoby:
+- block - zajmują całą szerokość strony
+- inline - zajmuje tylko taka część strony, jaką potrzebuje (mogą być obok siebie w przeciwieństwie do bloków, ponieważ blok może być tylko jeden ze względu na jego szerokość)
+
+Z tego powodu różne tagi będą się wyświetlały w różny sposób, w zależności od ich typu.
+Np. linki to inline, ponieważ zajmują tylko tyle miejsca, ile zajmuje tekst linkujący.
+Np. paragraf <p>Paragraf1</p> to block, ponieważ dwa paragrafy nie są w stanie wyświetlić się obok siebie.
+
+<span>PRZYKLAD</span> - kontener dla inline
+<div>PRZYKLAD2</div> - kontener dla block
+
+Generalnie, najczęściej wszystko owija się kontenerami <div></div>, natomiast kontenery <span></span> służą sytuacjom bardziej specyficznym.
+-->
+
+
+--------------------------------------------------------------------------------------------------
+
+
+<!--
+Input & Forms (wprowadzanie i formularze)
+
+Definiowanie i tworzenie tych elementów w HTMLu nie oznacza, że będą działały. Aby można było zebrać i użyć to, co użytkownik wprowadził, trzeba użyć JavaScript.
+
+UWAGA!
+<form>                                                  jest to wrapper dla wszelkich pól typu "input" dla użytkownika. Jest to bardzo ważne przy współpracy z serwerem, JSem itd.
+    <input type="text"
+</form>
+
+Same elementy HTML wyglądają tak:
+<input type="text" />                                   wpisywanie zwykłego tekstu, np. username
+<input type="password" />                               wpisywanie hasła, znaki będą wykropkowane
+<input type="text" value="Enter your username"/>        w ten sposób można zdefiniować domyślną zawartość pola tekstowego
+<input type="date" />                                   specjalne pole do wpisania daty
+<input type="email" />                                  pole do wpisania maila, podobne do zwykłego textboxa
+<input type="range" />                                  slider wyboru zakresu
+<input type="file" />                                   przycisk "upload" ("wybierz plik") dla użytkownika, aby mógł przesłać jakieś pliki
+
+<input type="checkbox" />                               przycisk "checkbox" do zaznaczania wielokrotnego wyboru. W przeciwieństwie do przycisków typu "radio" mogą być zaznaczone więcej, niż jeden na raz.
+<input type="checkbox" />
+
+<input name="button" type="radio" />                    przycisk typu "radio" (kółeczko) jednokrotnego wyboru. Jeśli mają te same imię, może być zaznaczony tylko jeden na raz.
+
+<input name="button" type="radio" />
+<input type="submit" />                                 przycisk "submit" (prześlij) do przesyłania np. odpowiedzi w formularzu.
+
+
+<textarea rows="10" cols="30">                          duże pole do wpisywania tekstu i można zmieniać mu rozmiar. Można od razu zdefiniować ilość kolumn i rzędów, co wpłynie na rozmiar.
+    Enter a text                                        w ten sposób tworzy się domyślną zawartość pola.
+</textarea>
+
+WIĘCEJ TAGÓW NA STRONIE:
+https://www.w3schools.com/tags/tag_input.asp
+-->
+
+
+--------------------------------------------------------------------------------------------------
+
+
+<!--
+iFRAMES
+
+
+
 -->
