@@ -5,6 +5,8 @@ NOTATKI HTML
 <!--
     można te strzałki se przenieść na dół
 
+UWAGA!!! Wszystkie stylizacje, jak tagi <i></i> oraz <b></b> powinny być robione w CSS, nie w HTML!
+
 Tagi:
 <!DOCTYPE html>     deklaracja typu dokumentu
 <html>      typ dokumentu dla przeglądarki
@@ -17,7 +19,7 @@ Tagi:
         <h1>TEKST</h1>        nagłówek (heading) największy
         <h2>TEKST</h2>       nagłówek (heading) mniejszy
         ...
-        <h6>TEKST</h6>       nagłówek (heading) najmniejszy
+        <h6>TEKST</h6>      nagłówek (heading) najmniejszy
         <br/> lub <br>      pojedynczy odstęp
         <hr/> lub <hr/>     pojedyncza linia oddzielająca od jednej, do drugiej strony dokumentu
         <p>NOWY PARAGRAF</p>
@@ -25,7 +27,9 @@ Tagi:
         <i>POCHYLENIE</i>
         <big>POWIĘKSZENIE TEKSTU</big>
         <small>POMNIEJSZENIE TEKSTU</small>
-        <p>10<sup>2</sup></p>       tekst u góry (potęgowanie na przykład)
+		<em></em>			emphasis (nacisk). Przeglądarka wyświetla ten element jako tekst pochylony, ale NIE jest rozumiany jako tekst pochylony, a właśnie ten, na który kładziemy nacisk. Bardzo ważny dla Search Engine! Styl w jaki wyświetla się ten element, można zmienić w CSS.
+        <strong></strong>	element podobny do <em></em>. Ten z kolei domyślnie pogrubia tekst, natomiast również jest to odpowiednio indeksowane przez search engine. Również tu można zmienić styl taga w CSS.
+		<p>10<sup>2</sup></p>       tekst u góry (potęgowanie na przykład)
         <p>H<sub>2</sub>O</p>       tekst na dole (znaki chemiczne na przykład)
         <p style="color: red;">CZERWONA CZCIONKA</p>
         <p style="background-color: blue">KOLOR TŁA CZCIONKI</p>
@@ -534,5 +538,35 @@ TABELE - FULL
 DRUGI TUTORIAL
 PROGRAMMING WITH MOSH -- HTML TUTORIAL for Beginners: HTML Crash Course (https://www.youtube.com/watch?v=qz0aGYrrlhU)
 
+ENTITIES (wyświetlanie znaków specjalnych HTML jako tekstu)
 
+< - &lt; (lesser than...)
+> - &gt; (greater than...)
+Przykład: <h1>&lt;HTML!&gt;</h1>
+
+&copy; - copyright symbol
+&nbsp; - non breakable single space (poczas, gdy w długim tekście, w wyrazie tworzy się automatyczna spacja dzieląca wyraz na dwoje i przenosząca jego treść linijkę niżej)
+
+LINK W POSTACI ZDJĘCIA:
+<body>
+	<a href="page2.html">
+		<img src="pics/obraz.jpg" alt="jakis_tam_obrazek">
+	</a>
+</body>
+
+DLA ELEMENTU ZNAJDUJĄCEGO SIĘ W FOLDERZE WYŻEJ:
+<a href=../index.html>HOME</a>		dla plików znajdujących się o jeden poziom wyżej
+../../../../index.html				dla plików znajdujących się kilka poziomów wyżej
+
+POBIERANIE ZDJĘCIA:
+<a href="pics/zdjecie.jpg" download>My Photo</a>
+
+TWORZENIE ELEMENTU NA STRONIE, DO KTÓREGO MOŻNA SIĘ ODNIEŚĆ I LINKOWAĆ:
+<h2 id="section-css">CSS</h2>
+
+<a href="#section-css">CSS</a>		link do tego elementu
+
+<a href="#">TOP</a>					przeniesienie się na samą górę strony
+
+<a href="mailto:l.waleszczynski@gmail.com">NAPISZ DO MNIE!</a>
 -->
