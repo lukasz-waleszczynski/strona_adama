@@ -404,6 +404,24 @@ ARTYKUŁY I FIGCAPTION
 <!--
 SPRAWDZANIE:
 
+<form>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="password">Password (8-16 characters):</label>
+  <input type="password" id="password" name="password" minlength="8" maxlength="16" required>
+
+  <label for="age">Age (between 18 and 99):</label>
+  <input type="number" id="age" name="age" min="18" max="99" required>
+
+  <button type="submit">Submit</button>
+</form>
+
+PRZYKŁAD:
+
 <!DOCTYPE html>
 <html lang="pl">
 	<head>
