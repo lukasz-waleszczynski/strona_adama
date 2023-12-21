@@ -3,7 +3,18 @@ nav {
     background-color: white;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+  }
+
 .nav-bar {
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: center;
@@ -26,19 +37,7 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
     color: white;
-    background-image: url(/pics/biale_drzwi_otwarte.jpg);
-    background-size: cover; /* Use 'cover' to make sure the image covers the entire div */
-    background-position: center;
-    border-radius: 10px;
-    text-align: center;
-    padding: 150px 20px; /* Adjust padding for a smaller logo */
-}
-
-.logo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24px;
-    color: white;
-    background-image: url(/pics/biale_drzwi_otwarte.jpg);
+    background-image: url(/pics/drzwi_pics/biale_drzwi_otwarte.jpg);
     background-size: cauto;
     background-position: center;
     border-radius: 10px;
