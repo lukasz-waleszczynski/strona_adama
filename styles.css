@@ -5,8 +5,12 @@
     font-size: 62.5%;
 }
 
+body {
+    background-color: #FFFBFE;
+}
+
 #nav {
-    background-color: white;
+    background-color: #FFFBFE;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2rem;
     text-align: center;
@@ -16,13 +20,13 @@
 
 #nav a {
     text-decoration: none;
-    color: black;
+    color: #565254;
     margin: 0 1.3rem;
     transition: color 0.3s;
 }
 
 #nav a:hover {
-    color: darkgray;
+    color: #D0CFCF;
 }
 
 ul {
@@ -37,17 +41,41 @@ li {
 
 #logo {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.5rem;
-    color: white;
+    font-size: 3rem;
+    color: #565254;
     background-image: url("/pics/drzwi_pics/biale_drzwi_otwarte.jpg");
-    background-size: cauto;
+    background-size: auto;
     background-position: center;
-    border-radius: 1.6rem;
+    /*border-radius: 1.6rem;*/
     text-align: center;
-    padding: 30rem 2rem 30rem 2rem;
+    padding: 15rem 2rem 15rem 2rem;
+}
+
+#flex-grid {
+    display: flex;
+    margin-top: 17rem;
+    margin-bottom: 17rem;
+    height: 10rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#flex-grid div {
+    margin: 0 1rem;
+}
+
+#flex-grid img {
+    max-height: 40rem;
+    width: auto;
 }
 
 #footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6rem;
     font-weight: normal;
@@ -55,15 +83,18 @@ li {
 }
 
 #footer-contact a {
-    display: block;
-    margin-bottom: 1.6rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 1.6rem;
 }
 
 #footer-contact i {
-    margin-right: 1.6rem;
+    margin-right: 0.5rem;
 }
 
 #footer-contact p {
     text-align: left;
     font-size: 1.1rem;
+    margin-top: 1.6rem;
 }
