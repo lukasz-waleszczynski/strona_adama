@@ -46,15 +46,15 @@ li {
     background-image: url("/pics/drzwi_pics/biale_drzwi_otwarte.jpg");
     background-size: auto;
     background-position: center;
-    /*border-radius: 1.6rem;*/
+    border-radius: 1rem;
     text-align: center;
     padding: 15rem 2rem 15rem 2rem;
 }
 
 #flex-grid {
     display: flex;
-    margin-top: 17rem;
-    margin-bottom: 17rem;
+    margin-top: 24rem;
+    margin-bottom: 24rem;
     height: 10rem;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -64,12 +64,61 @@ li {
 }
 
 #flex-grid div {
-    margin: 0 1rem;
+    margin: 0 1.2rem;
 }
 
 #flex-grid img {
     max-height: 40rem;
+    border-radius: 1rem;
     width: auto;
+}
+
+#flex-grid h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#flex-grid p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+    flex: 1;
+}
+
+#flex-grid2 {
+    display: flex;
+    margin-top: 50rem;
+    margin-bottom: 25rem;
+    height: 10rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#flex-grid2 div {
+    margin: 0 1.2rem;
+}
+
+#flex-grid2 img {
+    max-height: 40rem;
+    border-radius: 1rem;
+    width: auto;
+}
+
+#flex-grid2 h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#flex-grid2 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+    flex: 1;
 }
 
 #footer-contact {
