@@ -12,7 +12,7 @@ body {
 #nav {
     background-color: #FFFBFE;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     margin: 0;
     padding: 1.6rem 0;
@@ -60,7 +60,7 @@ li {
 }
 
 .logo-text h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     margin-bottom: 1rem;
 }
 
@@ -74,6 +74,37 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dlaczego-my {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.dlaczego-my-content {
+    max-width: 600px;
+}
+
+.dlaczego-my h2 {
+    font-size: 3rem;
+    color: #565254;
+    margin: 0;
+}
+
+.dlaczego-my-content p {
+    font-size: 2rem;
+    color: #565254;
 }
 
 .cards-main {
