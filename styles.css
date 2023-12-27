@@ -93,7 +93,7 @@ main {
 }
 
 .dlaczego-my-content {
-    max-width: 600px;
+    max-width: 60rem;
 }
 
 .dlaczego-my h2 {
@@ -115,6 +115,16 @@ main {
     gap: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.container .additional-text {
+    display: none;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.card:hover .container .additional-text {
+    display: block;
 }
 
 .card {
