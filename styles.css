@@ -108,6 +108,7 @@ main {
 }
 
 .cards-main {
+    background-color: #D0CFCF;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -115,41 +116,34 @@ main {
     gap: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
-
-.container .additional-text {
-    display: none;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    transform: scale(0.9);
-}
-
-.card:hover .container .additional-text {
-    display: block;
+    margin: 0 auto;
 }
 
 .card {
-    max-width: 50rem;
-    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
+    background-color: #FFFBFE;
+    flex: 0 0 calc(33.33% - 1rem);
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s, transform 0.3s;
     border-radius: 1.3rem;
 }
 
 .card img {
-    max-width: 50rem;
+    max-width: 100%;
     border-top-left-radius: 1.3rem;
     border-top-right-radius: 1.3rem;
 }
   
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
 }
   
   
 .container {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
     text-wrap: wrap;
     color: #565254;
@@ -199,32 +193,21 @@ main {
 }
 
 .card-oferta {
-    max-width: 50rem;
+    max-width: 20rem;
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
     transition: box-shadow 0.3s, transform 0.3s;
     border-radius: 1.3rem;
 }
 
-.container-oferta .additional-text-oferta {
-    display: none;
-    font-size: 1.4rem;
-    margin-top: 1rem;
-    transform: scale(0.9);
-}
-
-.card-oferta:hover .container-oferta .additional-text-oferta {
-    display: block;
-}
-
 .card-oferta {
-    max-width: 155rem;
+    max-width: 20rem;
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
     transition: box-shadow 0.3s, transform 0.3s;
     border-radius: 1.3rem;
 }
 
 .card-oferta img {
-    max-width: 155rem;
+    max-width: 20rem;
     border-top-left-radius: 1.3rem;
     border-top-right-radius: 1.3rem;
 }
