@@ -114,16 +114,17 @@ main {
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     margin: 0 auto;
+    border-radius: 1.3rem;
 }
 
 .card {
     background-color: #FFFBFE;
-    flex: 0 0 calc(33.33% - 1rem);
+    flex: 0 0 calc(30% - 1rem);
     box-sizing: border-box;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s, transform 0.3s;
     border-radius: 1.3rem;
@@ -167,7 +168,7 @@ main {
 }
 
 .oferujemy-content {
-    max-width: 60rem;
+    max-width: 100rem;
 }
 
 .oferujemy h2 {
@@ -190,30 +191,26 @@ main {
     gap: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    border-radius: 1.3;
 }
 
 .card-oferta {
-    max-width: 20rem;
-    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
-    transition: box-shadow 0.3s, transform 0.3s;
-    border-radius: 1.3rem;
-}
-
-.card-oferta {
-    max-width: 20rem;
+    background-color: #FFFBFE;
+    max-width: 30rem;
+    flex: 0 0 calc(30% - 1rem);
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
     transition: box-shadow 0.3s, transform 0.3s;
     border-radius: 1.3rem;
 }
 
 .card-oferta img {
-    max-width: 20rem;
+    max-width: 30rem;
     border-top-left-radius: 1.3rem;
     border-top-right-radius: 1.3rem;
 }
   
 .card-oferta:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
 }
     
