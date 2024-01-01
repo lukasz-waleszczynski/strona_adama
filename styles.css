@@ -89,7 +89,7 @@ main {
     align-items: center;
     text-align: center;
     padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 
 .dlaczego-my-content {
@@ -163,7 +163,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-bottom: 3rem;
 }
 
@@ -196,7 +196,7 @@ main {
 
 .card-oferta {
     background-color: #FFFBFE;
-    max-width: 30rem;
+    max-width: 40rem;
     flex: 0 0 calc(30% - 1rem);
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
     transition: box-shadow 0.3s, transform 0.3s;
@@ -204,7 +204,7 @@ main {
 }
 
 .card-oferta img {
-    max-width: 30rem;
+    max-width: 40rem;
     border-top-left-radius: 1.3rem;
     border-top-right-radius: 1.3rem;
 }
