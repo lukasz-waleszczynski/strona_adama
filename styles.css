@@ -51,7 +51,7 @@ li {
     background-position: center;
     border-radius: 1.3rem;
     text-align: center;
-    padding: 30rem 2rem;
+    padding: 20rem 2rem;
 }
 
 .logo-text {
@@ -82,33 +82,33 @@ main {
     align-items: center;
 }
 
-.dlaczego-my {
+.why-we {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
-.dlaczego-my-content {
+.why-we-content {
     max-width: 60rem;
 }
 
-.dlaczego-my h2 {
+.why-we h2 {
     font-size: 3rem;
     color: #565254;
     margin: 0;
 }
 
-.dlaczego-my-content p {
+.why-we-content p {
     font-size: 2rem;
     color: #565254;
 }
 
 .cards-main {
-    background-color: #D0CFCF;
+    /*background-color: #D0CFCF;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -157,27 +157,27 @@ main {
     align-items: center;
 }
 
-.oferujemy {
+.we-offer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
-.oferujemy-content {
+.we-offer-content {
     max-width: 100rem;
 }
 
-.oferujemy h2 {
+.we-offer h2 {
     font-size: 3rem;
     color: #565254;
     margin: 0;
 }
 
-.oferujemy-content p {
+.we-offer-content p {
     font-size: 2rem;
     color: #565254;
 }
@@ -192,14 +192,14 @@ main {
 }
 
 .oferta-main {
-    background-color: #D0CFCF;
+    /*background-color: #D0CFCF;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
     margin: 0 auto;
     border-radius: 1.3rem;
 }
@@ -219,12 +219,10 @@ main {
     border-top-right-radius: 1.3rem;
 }
 
-/* Karty w sekcji "oferta" są bez efektu "hover"
 .card-oferta:hover {
     transform: scale(1.02);
     box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
 }
-*/
     
 .container-oferta {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -238,6 +236,7 @@ main {
 #footer-contact {
     background-color: #D0CFCF;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -245,34 +244,26 @@ main {
     font-size: 1.6rem;
     font-weight: normal;
     text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-radius: 1.3rem;
 }
 
 .contact-info {
-    max-width: 25%;
     text-align: center;
-    font-size: 2rem;
-    padding: 3rem;
 }
 
-.google-maps {
-    display: flexbox;
-    align-content: center;
-    align-self: center;
-    width: 100%;
-    margin-top: 2rem;
+.phone-mail {
+    padding-top: 1rem;
 }
 
 #footer-contact a {
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    margin-left: 1.6rem;
-    margin-top: 0.5rem;
 }
 
 #footer-contact i {
+    text-align: center;
     margin-right: 1rem;
 }
